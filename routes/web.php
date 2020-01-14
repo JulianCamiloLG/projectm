@@ -14,3 +14,17 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/nosotros', function () {
+    return view('nosotros');
+});
+
+Route::get('/servicios', function () {
+    return view('servicios');
+});
+Route::get('/areas', function () {
+    return view('areas');
+});
+Route::get('/contacto', function () {
+    return view('contacto');
+});

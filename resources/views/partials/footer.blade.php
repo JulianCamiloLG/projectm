@@ -5,7 +5,7 @@
     }
     .line strong {
         display: inline-block;
-        background-color: #313435;
+        background-color: #393939;
         padding:0 0.1em;
     }
 </style>

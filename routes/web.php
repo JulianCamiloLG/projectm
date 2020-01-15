@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/nosotros', function () {
-    return view('nosotros');
+Route::get('/project', function () {
+    return view('project');
 });
 
 Route::get('/servicios', function () {
@@ -25,6 +25,6 @@ Route::get('/servicios', function () {
 Route::get('/areas', function () {
     return view('areas');
 });
-Route::get('/contacto', function () {
-    return view('contacto');
+Route::get('/transformacion', function () {
+    return view('transformacion');
 });

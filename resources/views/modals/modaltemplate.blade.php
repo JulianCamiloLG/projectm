@@ -9,7 +9,7 @@
       </div>
       <div class="modal-body">
         <div class="text-center">
-          <img class="img-fluid" @yield('srcimgbody') @yield('altimgbody')> <label for=""><strong><h1>@yield('modaltitle')</h1></strong></label> <br>
+          <img class="img-fluid" @yield('srcimgbody') @yield('altimgbody')> <label for=""><strong><h1>@yield('modaltitle')</h1></strong> @yield('extracontent')</label> <br>
         </div>
         <p>
           <br>

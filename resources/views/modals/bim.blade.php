@@ -12,7 +12,7 @@
     alt="bimmodal"
 @endsection
 @section('srcimgbody')
-    src="{{ URL::asset('img/icono-industrial.png') }}"
+    src="{{ URL::asset('img/01icono-bim.png') }}"
 @endsection
 @section('altimgbody')
     alt="bimmodal"

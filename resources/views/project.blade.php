@@ -13,6 +13,18 @@
 @endsection
 
 @section('body')
+<style type="text/css">
+    .contentimg {
+        position: relative;
+        width: 100%;
+    }
+    .contentimg .btnmodal {
+        position: absolute;
+        top: 60%;
+        left: 80%;
+        text-align: center;
+    }
+</style>
 <div class="container-fluid" style=" font-family: Roboto, 'Segoe UI', Tahoma, sans-serif; font-size: 16px">
     <div class="row">
         <div class="col-md-6 col-sm-12" style="background-color: #e0dede; position: relative" >
@@ -25,7 +37,10 @@
                 la cadena de valor y manteniendo su flujo continuo en todas
                 las fases del ciclo del proyecto.  
                 </p> <br>
-                <img class="img-fluid" src="{{ URL::asset('img/03imagen-leanmanagement.jpg') }}" alt="leanmanagement">
+                <div class="contentimg">
+                    <img class="img-fluid" src="{{ URL::asset('img/03imagen-leanmanagement.jpg') }}" alt="leanmanagement">
+                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modallean">Ver más</button>
+                </div>
             </div>
             
         </div>
@@ -38,7 +53,10 @@
                 de proyectos de construcción con un equipo cooperativo y colaborativo para diseñar y construir el proyecto con recompensas compartidas en el costo final, cronograma y la calidad del
                 proyecto.
                 </p> <br>
-                <img class="img-fluid" src="{{ URL::asset('img/03imagen-gerenciaintegrada.jpg') }}" alt="gerenciaintegrada">
+                <div class="contentimg">
+                    <img class="img-fluid" src="{{ URL::asset('img/03imagen-gerenciaintegrada.jpg') }}" alt="gerenciaintegrada">
+                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modalgerencia">Ver más</button>
+                </div>
             </div>
         </div>
     </div>
@@ -53,7 +71,10 @@
                 entorno de la gerencia de proyectos se debe tener en cuenta
                 al mismo tiempo un amplio espectro de impactos potenciales.
                 </p> <br>
-                <img class="img-fluid" src="{{ URL::asset('img/03imagen-sostenibilidad.jpg') }}" alt="sostenibilidad">
+                <div class="contentimg">
+                    <img class="img-fluid" src="{{ URL::asset('img/03imagen-sostenibilidad.jpg') }}" alt="sostenibilidad">
+                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modalsostenibilidad">Ver más</button>
+                </div>
             </div>
             
         </div>
@@ -66,11 +87,17 @@
                 cualitativas de los proyectos, con el fin de generar la máxima
                 satisfacción de los usuarios y clientes. 
                 </p> <br>
+                <div class="contentimg">
                 <img class="img-fluid" src="{{ URL::asset('img/03imagen-gestioncalidad.jpg') }}" alt="gestioncalidad">
+                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modalgestion">Ver más</button>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-
+@include('modals.lean')
+@include('modals.gerencia')
+@include('modals.sostenibilidad')
+@include('modals.gestion')
 @endsection

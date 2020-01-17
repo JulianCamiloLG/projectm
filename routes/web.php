@@ -28,3 +28,13 @@ Route::get('/areas', function () {
 Route::get('/transformacion', function () {
     return view('transformacion');
 });
+Route::get('/contacto', function () {
+    return view('contacto');
+});
+
+Route::get('/nosotros', function () {
+    return view('nosotros');
+});
+
+Route::post('mail','MailController')->name('mail');
+

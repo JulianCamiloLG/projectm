@@ -14,6 +14,9 @@
                             <a class="nav-link" href="/" style="width: 100px"> HOME <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item text-center">
+                            <a class="nav-link" href="/nosotros" style="width: 100px"> NOSOTROS <span class="sr-only">(current)</span></a>
+                        </li
+                        <li class="nav-item text-center">
                             <a class="nav-link" href="/servicios" style="width: 100px"> SERVICIOS <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item dropdown">
@@ -27,6 +30,9 @@
                                 <a class="dropdown-item" href="/transformacion">Transformación Digital</a>
                                 <div class="dropdown-divider"></div>
                             </div>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="/contacto" style="width: 100px"> CONTACTO <span class="sr-only">(current)</span></a>
                         </li>
                     </ul>
                 </div>

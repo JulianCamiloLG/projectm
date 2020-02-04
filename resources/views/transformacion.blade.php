@@ -21,16 +21,16 @@
     .contentimg .btnmodal {
         position: absolute;
         top: 60%;
-        left: 80%;
+        left: 70%;
         text-align: center;
     }
 </style>
 <div class="container-fluid" style=" font-family: Roboto, 'Segoe UI', Tahoma, sans-serif; font-size: 3vw ">
     <div class="row">
         <div class="col-md-6 col-sm-12" style="background-color: #e0dede; position: relative" >
-            <div class="my-5 mx-5">
+            <div class="my-2 mx-2">
                 <img class="img-fluid" src="{{ URL::asset('img/02icono-bim.png') }}" alt="bin">
-                <label for="bim"><strong><h1 style="font-size: 4vw">BIM</h1 style="font-size: 3vw"></strong></label> <br>
+                <label for="bim"><strong><h1>BIM</h1></strong></label> <br>
                 <p> <br>
                 Es una metodología tecnológica que integra todos los actores
                 de un proyecto, que permite modelar la información del proyecto para facilitar el diseño, operación y la comunicación de
@@ -38,15 +38,15 @@
                 </p> <br> <br> <br>
                 <div class="contentimg">
                     <img class="img-fluid" src="{{ URL::asset('img/03imagen-bim.jpg') }}" alt="bim">
-                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modalbim" style="font-size: 1.5vw">Ver más</button>
+                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modalbim">Ver más</button>
                 </div>
             </div>
             
         </div>
         <div class="col-md-6 col-sm-12">
-            <div class="my-5 mx-5"> 
+            <div class="my-2 mx-2"> 
                 <img class="img-fluid" src="{{ URL::asset('img/02icono-industria.png') }}" alt="industria">
-                <label for="bim"><strong><h1 style="font-size: 4vw">Industria 4.0</h1></strong></label> <br>
+                <label for="bim"><strong><h1>Industria 4.0</h1></strong></label> <br>
                 <p> <br>
                 Transformación digital es el procedimiento que une un elemento físico con un servicio virtual, en pos de generar una
                 ventaja disruptiva en el modelo de negocio, donde se deben
@@ -54,7 +54,7 @@
                 </p> <br>
                 <div class="contentimg">
                     <img class="img-fluid" src="{{ URL::asset('img/03imagen-industria.jpg') }}" alt="industria">
-                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modalindustria" style="font-size: 1.5vw">Ver más</button>
+                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modalindustria">Ver más</button>
                 </div>
                 
             </div>

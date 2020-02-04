@@ -14,7 +14,7 @@
 @section('body')
 <div class="container-fluid" style=" font-family: Roboto, 'Segoe UI', Tahoma, sans-serif; font-size: 3vw">
     <div class="row">
-        <div class="text-left col-xs-12 px-5" style="background-color: #868589; color: white">
+        <div class="text-left col-xs-12 px-1" style="background-color: #868589; color: white">
             <div class="justify-content-cent">
                 <label for="texto1">
                 El equipo Project M estará liderado por los ingenieros <strong> Javier Prieto (Ceng, MsC-MBA) y Cristian Osorio (CEng, MsC) </strong>
@@ -32,11 +32,11 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-sm-12 text-center justify-content-cent ">
+    <div class="row p-0">
+        <div class="col-sm-12 text-center">
             <label for="titulo"> <h1 style="font-size: 5vw"><strong>International partners</strong></label></h1>
         </div>
-        <div class="row border" style="width: 100%"></div>
+        <div class="row p-0" style="width: 100%"></div>
         <div class="col-md-6 col-sm-12" style="background-color: #e0dede; ">
             <label for="titulo"> <h1 style="font-size: 4vw"><strong>Salvador <br>
                                         García Rodríguez</strong></h1>

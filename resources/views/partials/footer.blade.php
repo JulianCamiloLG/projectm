@@ -9,7 +9,7 @@
         padding:0 0.1em;
     }
 </style>
-<footer class="page-footer bg-dark pt-4" style="color: white">
+<footer class="page-footer bg-dark pt-4" style="color: white; font-size: 1.2vw">
   <div class="container-fluid text-center text-md-left">
     <div class="row">
       <div class="col-md-4">

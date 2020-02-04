@@ -16,8 +16,8 @@
 <div class="row">
     <div class="col-xl-12" style="position: relative">
         <img style="width: 100%" class="img-fluid" src="{{ URL::asset('img/02banner-ingenieriadevalor.jpg') }}" alt="nosotros">
-        <div class="col-xs-12" style="position: absolute; top: 10px; right: 40% ">
-            <h1 style="font-size: 3vw"><span>Ingeniería de valor</span></h1>
+        <div class="col-xs-12" style="position: absolute; top: 10px; right: 25% ">
+            <h1 style="font-size: 5vw"><span>Ingeniería de valor</span></h1>
         </div>
     </div>
 </div>
@@ -34,7 +34,7 @@
 </div>
 <div class="row">
     <div class="col-xl-12 mt-5 mb-2">
-        <h1 class="text-center" style="font-size: 3vw"> <strong>Nuestros clientes</strong></h1>
+        <h1 class="text-center" style="font-size: 4vw"> <strong>Nuestros clientes</strong></h1>
     </div>
 </div>
 <div class="row mt-2 mb-5">

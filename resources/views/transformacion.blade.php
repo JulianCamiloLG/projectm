@@ -25,12 +25,12 @@
         text-align: center;
     }
 </style>
-<div class="container-fluid" style=" font-family: Roboto, 'Segoe UI', Tahoma, sans-serif; font-size: 2vw ">
+<div class="container-fluid" style=" font-family: Roboto, 'Segoe UI', Tahoma, sans-serif; font-size: 3vw ">
     <div class="row">
         <div class="col-md-6 col-sm-12" style="background-color: #e0dede; position: relative" >
             <div class="my-5 mx-5">
                 <img class="img-fluid" src="{{ URL::asset('img/02icono-bim.png') }}" alt="bin">
-                <label for="bim"><strong><h1 style="font-size: 3vw">BIM</h1 style="font-size: 3vw"></strong></label> <br>
+                <label for="bim"><strong><h1 style="font-size: 4vw">BIM</h1 style="font-size: 3vw"></strong></label> <br>
                 <p> <br>
                 Es una metodología tecnológica que integra todos los actores
                 de un proyecto, que permite modelar la información del proyecto para facilitar el diseño, operación y la comunicación de
@@ -46,7 +46,7 @@
         <div class="col-md-6 col-sm-12">
             <div class="my-5 mx-5"> 
                 <img class="img-fluid" src="{{ URL::asset('img/02icono-industria.png') }}" alt="industria">
-                <label for="bim"><strong><h1 style="font-size: 3vw">Industria 4.0</h1></strong></label> <br>
+                <label for="bim"><strong><h1 style="font-size: 4vw">Industria 4.0</h1></strong></label> <br>
                 <p> <br>
                 Transformación digital es el procedimiento que une un elemento físico con un servicio virtual, en pos de generar una
                 ventaja disruptiva en el modelo de negocio, donde se deben

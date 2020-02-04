@@ -1,13 +1,13 @@
 <div class="container-fluid" @yield('background') >
     <nav class="navbar navbar-expand-lg navbar-dark justify-content-between" style="width: 100%">
         <div class="row" style="width: 100%">
-            <div class="col-md-5 col-sm-12" style="width: 100%">
+            <div class="col-md-5 col-sm-12" style="width: 80%">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                 </button>
                 <img src="{{ URL::asset('img/logo.png') }}" alt="logo">
             </div>
-            <div class="col-md-7 mt-5 pl-5" style="width: 100%">
+            <div class="col-sm-7 mt-5 pl-5" style="width: 100%">
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <ul class="navbar-nav">
                         <li class="nav-item mx-3 text-center">

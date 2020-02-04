@@ -23,11 +23,11 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             ÁREAS
                             </a>
-                            <div class="dropdown-menu navbar-dark" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu navbar-dark" aria-labelledby="navbarDropdown" style="background-color: grey; color: white">
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="/project">Project Managment</a>
+                                <a class="dropdown-item" href="/project" style="background-color: grey; color: white">Project Managment</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="/transformacion">Transformación Digital</a>
+                                <a class="dropdown-item" href="/transformacion" style="background-color: grey; color: white">Transformación Digital</a>
                                 <div class="dropdown-divider"></div>
                             </div>
                         </li>

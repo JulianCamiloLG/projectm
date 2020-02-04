@@ -13,7 +13,7 @@
 
 @section('body')
 <div class="container-fluid" style=" font-family: Roboto, 'Segoe UI', Tahoma, sans-serif; font-size: 2vw">
-    <div class="row ">
+    <div class="row">
         <div class="text-left col-xs-12 px-5" style="background-color: #868589; color: white">
             <div class="justify-content-cent">
                 <label for="texto1">
@@ -32,11 +32,12 @@
             </div>
         </div>
     </div>
-    <div class="row justify-content-cent" style="width: 100%; ">
-        <div class="col-sm-12 text-center ">
+    <div class="row">
+        <div class="col-sm-12 text-center justify-content-cent ">
             <label for="titulo"> <h1 style="font-size: 3vw"><strong>International partners</strong></label></h1>
         </div>
-        <div class="col-md-6 col-sm-12" style="background-color: #e0dede; position: relative; ">
+        <div class="row border" style="width: 100%"></div>
+        <div class="col-md-6 col-sm-12" style="background-color: #e0dede; ">
             <label for="titulo"> <h1 style="font-size: 3vw"><strong>Salvador <br>
                                         García Rodríguez</strong></h1>
             </label> <br> <br>

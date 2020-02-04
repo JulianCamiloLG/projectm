@@ -38,3 +38,5 @@ Route::get('/nosotros', function () {
 
 Route::post('mail','MailController')->name('mail');
 
+
+

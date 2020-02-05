@@ -16,14 +16,14 @@
     <div class="row">
         <div class="text-left col-xs-12 px-2" style="background-color: #868589; color: white">
             <div class="justify-content-cent">
-                <label for="texto1" class="fuentetexto">
+                <label for="texto1" class="textonosotros">
                 El equipo Project M estará liderado por los ingenieros <strong> Javier Prieto (Ceng, MsC-MBA) y Cristian Osorio (CEng, MsC) </strong>
                 quienes suman más de 20 años de experiencia en la estructuración, ejecución, control y operación de proyectos de
-                construcción. <br> <br>
+                construcción. <br>
                 </label>
             </div>
             <div class="justify-content-cent">
-                <label for="texto2" class="fuentetexto">
+                <label for="texto2" class="textonosotros">
                     En el sector infraestructura, inmobiliario, corporativo, comercial y residencial. Así mismo, han dirigido y realizado
                     proyectos de investigación y consultoría en las áreas de Ingeniería y gerencia de la construcción, mejoramiento de la
                     productividad en construcción, Lean Construction, BIM, huella ambiental de los proyectos, sistemas constructivos y

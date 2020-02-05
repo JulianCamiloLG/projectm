@@ -24,7 +24,7 @@
     }
     
 </style>
-<div class="container-fluid">
+<div class="container-fluid" style=" font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;">
     <div class="row">
         <div class="col-md-6 col-xs-12">
             <div class="my-5 " >

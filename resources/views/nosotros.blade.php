@@ -41,7 +41,7 @@
             <label for="titulo"> <h1 class="fuentetitulo"><strong>Salvador <br>
                                         García Rodríguez</strong></h1>
             </label> <br> <br>
-            <label for="content1" class="fuentetexto">Ingeniero civil graduado en 1990 (UMSNH), maestría
+            <label for="content1" class="textonosotros">Ingeniero civil graduado en 1990 (UMSNH), maestría
             en Ingeniería de la Construcción 1994 (UNAM) y Doctorado en Administración de la Construcción (UPC,
             España). Durante los últimos 22 años ha realizado investigación aplicada, consultoría y extensión especializada en temas de Real Estate, Innovación en la
             construcción y mejora continua; para empresas y organizaciones en México, Estados Unidos, Europa y
@@ -51,7 +51,7 @@
             <label for="titulo"> <h1  class="fuentetitulo"><strong>Harrison <br>
                                         Mesa Hernández</strong></h1>
             </label> <br> <br>
-            <label for="content2" class="fuentetexto">Ingeniero Civil (U. Nacional), Doctor (Ph.D) en Pontificia
+            <label for="content2" class="textonosotros">Ingeniero Civil (U. Nacional), Doctor (Ph.D) en Pontificia
             Universidad Católica de Chile/ University of Colorado
             Boulder (USA). Profesor asistente de la Escuela de Construcción Civil en la Pontificia Católica de Chile. Ha realizado trabajos de investigación en Construcción sustentable, tecnologías y procesos constructivos, y gestión
             administrativa y operativa de proyectos. </label>

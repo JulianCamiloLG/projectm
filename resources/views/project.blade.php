@@ -30,8 +30,8 @@
         <div class="col-md-6 col-sm-12" style="background-color: #e0dede; position: relative" >
             <div class="my-2 mx-2">
                 <img class="img-fluid" src="{{ URL::asset('img/02icono-leanmanagement.png') }}" alt="leanmanagement">
-                <label for="bim"><strong><h1>Lean Management</h1></strong> Organizaciones, Proyectos, Procesos y Construcción</label> <br>
-                <p> <br>
+                <label for="bim" class="fuentetexto"><strong><h1 class="fuentetitulo">Lean Management</h1></strong> Organizaciones, Proyectos, Procesos y Construcción</label> <br>
+                <p class="fuentetexto"> <br>
                 El equipo Project M fundamenta sus procesos y resultados en
                 los principios Lean utilizando las metodologías y herramientas más recientes para entregar valor al cliente identificando
                 la cadena de valor y manteniendo su flujo continuo en todas
@@ -47,7 +47,7 @@
         <div class="col-md-6 col-sm-12">
             <div class="my-2 mx-2"> 
                 <img class="img-fluid" src="{{ URL::asset('img/02-icono-gerenciaintegrada.png') }}" alt="gerenciaintegrada">
-                <label for="bim"><strong><h1>Gerencia integrada</h1></strong>DE PROYECTOS - IPD</label> <br>
+                <label for="bim" class="fuentetexto"><strong><h1 class="fuentetitulo">Gerencia integrada</h1></strong>DE PROYECTOS - IPD</label> <br>
                 <p> <br>
                 Representa una innovación evolutiva y audaz en el desarrollo
                 de proyectos de construcción con un equipo cooperativo y colaborativo para diseñar y construir el proyecto con recompensas compartidas en el costo final, cronograma y la calidad del
@@ -55,7 +55,7 @@
                 </p> <br>
                 <div class="contentimg">
                     <img class="img-fluid" src="{{ URL::asset('img/03imagen-gerenciaintegrada.jpg') }}" alt="gerenciaintegrada">
-                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modalgerencia">Ver más</button>
+                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modalgerencia" style="font-size: 1.5vw">Ver más</button>
                 </div>
             </div>
         </div>
@@ -64,8 +64,8 @@
         <div class="col-md-6 col-sm-12"  >
             <div class="my-2 mx-2">
                 <img class="img-fluid" src="{{ URL::asset('img/02icono-sostenibilidad.png') }}" alt="sostenibilidad">
-                <label for="bim"><strong><h1>Sostenibilidad</h1></strong></label> <br>
-                <p> <br>
+                <label for="bim" class="fuentetexto"><strong><h1 class="fuentetitulo">Sostenibilidad</h1></strong></label> <br>
+                <p class="fuentetexto"> <br>
                 La Gestión de Proyectos Sostenibles o Green Project Management considera que los factores ambientales son elementos
                 importantes en los resultados finales de los proyectos. En este
                 entorno de la gerencia de proyectos se debe tener en cuenta
@@ -73,7 +73,7 @@
                 </p> <br>
                 <div class="contentimg">
                     <img class="img-fluid" src="{{ URL::asset('img/03imagen-sostenibilidad.jpg') }}" alt="sostenibilidad">
-                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modalsostenibilidad">Ver más</button>
+                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modalsostenibilidad" style="font-size: 1.5vw">Ver más</button>
                 </div>
             </div>
             
@@ -81,15 +81,15 @@
         <div class="col-md-6 col-sm-12" style="background-color: #e0dede; position: relative">
             <div class="my-2 mx-2"> 
                 <img class="img-fluid" src="{{ URL::asset('img/02icono-calidad.png') }}" alt="calidad">
-                <label for="bim"><strong><h1>Gestión de</h1></strong>LA CALIDAD</label> <br>
-                <p> <br>
+                <label for="bim" class="fuentetexto"><strong><h1 class="fuentetitulo">Gestión de</h1></strong>LA CALIDAD</label> <br>
+                <p class="fuentetexto"> <br>
                 Es una forma de trabajo que involucra a los diferentes stakeholders del proyecto, durante el ciclo de vida de estos, mediante el cumplimiento de las características cuantitativas y
                 cualitativas de los proyectos, con el fin de generar la máxima
                 satisfacción de los usuarios y clientes. 
                 </p> <br>
                 <div class="contentimg">
                 <img class="img-fluid" src="{{ URL::asset('img/03imagen-gestioncalidad.jpg') }}" alt="gestioncalidad">
-                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modalgestion">Ver más</button>
+                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modalgestion" style="font-size: 1.5vw">Ver más</button>
                 </div>
             </div>
         </div>

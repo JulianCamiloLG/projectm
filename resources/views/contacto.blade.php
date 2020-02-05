@@ -24,18 +24,18 @@
     }
     
 </style>
-<div class="container-fluid" style="font-size: 2vw">
+<div class="container-fluid">
     <div class="row">
         <div class="col-md-6 col-xs-12">
-            <div class="my-5">
-                <h1><strong>JAVIER PRIETO</strong></h1>
-                <h3>javier@projectm.pro</h3>
-                <h3>Bogota D.C</h3>
+            <div class="my-5 " >
+                <h1 class="fuentetitulo"><strong>JAVIER PRIETO</strong></h1>
+                <h3 class="fuentetexto">javier@projectm.pro</h3>
+                <h3 class="fuentetexto">Bogota D.C</h3>
             </div>
             <div class="my-5">
-                <h1><strong>CRISTIAN OSORIO</strong></h1>
-                <h3>cristian@projectm.pro</h3>
-                <h3>Manizales</h3>
+                <h1 class="fuentetitulo"><strong>CRISTIAN OSORIO</strong></h1>
+                <h3 class="fuentetexto">cristian@projectm.pro</h3>
+                <h3 class="fuentetexto">Manizales</h3>
             </div>
         </div>
         <div class="col-md-6 col-xs-12">

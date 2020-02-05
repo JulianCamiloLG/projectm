@@ -1,22 +1,66 @@
-html {
-  font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
-}
-  
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .fuentetitulo {
+    font-size: 25px;
   }
-}
-  
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
+  .fuentetexto {
+    font-size: 20px;
   }
-}
-  
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
+
+  .footer {
+    font-size: 15px;
   }
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .fuentetitulo {
+    font-size: 30px;
+  }
+  .fuentetexto {
+    font-size: 20px;
+  }
+  .footer {
+    font-size: 15px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .fuentetitulo {
+    font-size: 35px;
+  }
+  .fuentetexto {
+    font-size: 20px;
+  }
+  .footer {
+    font-size: 20px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .fuentetitulo {
+    font-size: 40px;
+  }
+  .fuentetexto {
+    font-size: 25px;
+  }
+  .footer {
+    font-size: 20px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .fuentetitulo {
+    font-size: 45px;
+  }
+  .fuentetexto {
+    font-size: 25px;
+  }
+
+  .footer {
+    font-size: 20px;
+  }
+}

@@ -9,12 +9,12 @@
         padding:0 0.1em;
     }
 </style>
-<footer class="page-footer bg-dark pt-4" style="color: white; font-size: 1.2vw">
+<footer class="page-footer bg-dark pt-4" style="color: white;">
   <div class="container-fluid text-center text-md-left">
     <div class="row">
       <div class="col-md-4">
-        <h5 class="text-uppercase line" ><strong>Nosotros</strong></h5>
-        <label for="text1">
+        <h5 class="text-uppercase line footer" ><strong>Nosotros</strong></h5>
+        <label for="text1" class="footer">
             Ciclo de vida integrado de proyectos <br>
             Ingeniería de valor <br>
             Trabajo multidisciplinario colaborativo <br>
@@ -24,8 +24,8 @@
         </label>
       </div>
       <div class="col-md-4">
-        <h5 class="text-uppercase line"><strong>CONTÁCTANOS</strong></h5>
-        <label for="text2 mt-3">
+        <h5 class="text-uppercase line footer"><strong>CONTÁCTANOS</strong></h5>
+        <label for="text2 mt-3" class="footer">
             <P>
                 <strong>
                 Javier Prieto <br>
@@ -41,7 +41,7 @@
         </label>
       </div>
       <div class="col-md-4">
-        <h5 class="text-uppercase line"><strong>SÍGUENOS</strong></h5>
+        <h5 class="text-uppercase line footer"><strong>SÍGUENOS</strong></h5>
         <p>
             <img class="img-fluid" src="{{ URL::asset('img/05logo-facebook.png') }}" alt="facebook">
             <img class="img-fluid" src="{{ URL::asset('img/05logo-linkedin.png') }}" alt="linkedin">
@@ -49,5 +49,5 @@
       </div>
     </div>
   </div>
-  <div class="footer-copyright text-center py-3 bg-secondary">© 2020 Todos los derechos reservados</div>
+  <div class="footer-copyright text-center py-3 bg-secondary fuentetexto">© 2020 Todos los derechos reservados</div>
 </footer>

@@ -8,7 +8,7 @@
 @endsection
 
 @section('background')
-    style="background-image: url({{ URL::asset('img/02nuestroequipo.jpg') }}); min-height: 884px; max-width: 100% ; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative;background-size: 100% 100%;"
+    style="background-image: url({{ URL::asset('img/02nuestroequipo.jpg') }}); height: 100%; max-width: 100% ; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative;background-size: 100% 100%;"
 @endsection
 
 @section('titulo')

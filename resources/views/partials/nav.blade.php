@@ -10,14 +10,14 @@
             <div class="col-sm-7 pt-5" style="width: 100%">
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <ul class="navbar-nav">
-                        <li class="nav-item mx-3 text-center">
-                            <a class="nav-link" href="/" style="width: 100px"> HOME <span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/" style="width: 100%"> HOME <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item text-center">
-                            <a class="nav-link" href="/nosotros" style="width: 100px"> NOSOTROS <span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/nosotros" style="width: 100%"> NOSOTROS <span class="sr-only">(current)</span></a>
                         </li
-                        <li class="nav-item text-center">
-                            <a class="nav-link" href="/servicios" style="width: 100px"> SERVICIOS <span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/servicios" style="width: 100%"> SERVICIOS <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -31,23 +31,23 @@
                                 <div class="dropdown-divider"></div>
                             </div>
                         </li>
-                        <li class="nav-item text-center">
-                            <a class="nav-link" href="/contacto" style="width: 100px"> CONTACTO <span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contacto" style="width: 100%"> CONTACTO <span class="sr-only">(current)</span></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </nav>
-    <div class="col-sm-12 pt-5" style="color: white">
-        <div class="col-sm-12 pt-5">
+    <div class="col-sm-12 py-5" style="color: white">
+        <div class="col-sm-12">
             <div class="col-sm-12 fuentetitulo">
                 <strong>@yield('titulo')</strong>
             </div>
             <div class="col-sm-12 fuentetitulo">
                 @yield('subtitulo')
             </div>
-            <div class="col-sm-3 fuentetextonav">
+            <div class="col-md-3 col-sm-8 fuentetextonav">
                 @yield('texto')
             </div>
         </div>

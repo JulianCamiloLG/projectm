@@ -13,6 +13,9 @@
   .textonosotros {
     font-size: 15px;
   }
+  .fuentetextonav {
+    font-size: 5px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -28,6 +31,9 @@
   }
   .textonosotros {
     font-size: 15px;
+  }
+  .fuentetextonav {
+    font-size: 5px;
   }
 }
 
@@ -45,6 +51,9 @@
   .textonosotros {
     font-size: 15px;
   }
+  .fuentetextonav {
+    font-size: 10px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -60,6 +69,9 @@
   }
   .footer {
     font-size: 20px;
+  }
+  .fuentetextonav {
+    font-size: 10px;
   }
 }
 
@@ -78,5 +90,8 @@
 
   .footer {
     font-size: 20px;
+  }
+  .fuentetextonav {
+    font-size: 10px;
   }
 }

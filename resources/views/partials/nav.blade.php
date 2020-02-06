@@ -7,7 +7,7 @@
                 </button>
                 <img src="{{ URL::asset('img/logo.png') }}" alt="logo" width="100%" style="left: 50%">
             </div>
-            <div class="col-sm-7 mt-5 pl-5" style="width: 100%">
+            <div class="col-sm-7 pt-5" style="width: 100%">
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <ul class="navbar-nav">
                         <li class="nav-item mx-3 text-center">
@@ -39,4 +39,17 @@
             </div>
         </div>
     </nav>
+    <div class="col-sm-12 pt-5" style="color: white">
+        <div class="col-sm-12 pt-5">
+            <div class="col-sm-12 fuentetitulo">
+                <strong>@yield('titulo')</strong>
+            </div>
+            <div class="col-sm-12 fuentetitulo">
+                @yield('subtitulo')
+            </div>
+            <div class="col-sm-3 fuentetextonav">
+                @yield('texto')
+            </div>
+        </div>
+    </div>
 </div>

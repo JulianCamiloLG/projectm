@@ -9,7 +9,21 @@
 @endsection
 
 @section('background')
-    style="background-image: url({{ URL::asset('img/01banner-home.jpg') }}); min-height: 890px; max-width: 100% ; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative; background-size: 100% 100%;"
+    style="background-image: url({{ URL::asset('img/01home1.jpg') }}); min-height: 677px; max-width: 100% ; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative; background-size: 100% 100%;"
+@endsection
+
+@section('titulo')
+INGENIERÍA
+@endsection
+
+@section('subtitulo')
+Y GESTIÓN
+@endsection
+
+@section('texto')
+que genera valor a nuestros clientes
+para incrementar la rentabilidad y eficiencia de sus
+procesos, sus proyectos y su organización.
 @endsection
 
 @section('body')

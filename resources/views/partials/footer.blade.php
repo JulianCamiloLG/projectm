@@ -18,7 +18,7 @@
             Ciclo de vida integrado de proyectos <br>
             Ingeniería de valor <br>
             Trabajo multidisciplinario colaborativo <br>
-            Mejora contínua <br>
+            Mejora continua <br>
             Soluciones ágiles, eficientes y sostenibles <br>
             Proyectos con tecnología <br>
         </label>

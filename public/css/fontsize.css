@@ -1,5 +1,9 @@
 .scroll {
   overflow-x: hidden;
+  letter-spacing: -1px;
+}
+.espaciotitulo {
+  letter-spacing: -4px;
 }
 
 

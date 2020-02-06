@@ -13,7 +13,7 @@
     @yield('style')
     <title>Project M - @yield('title')</title>
 </head>
-<body class="container-fluid p-0 scroll" style="width: 100%">
+<body class="container-fluid p-0" style="width: 100%">
 
     @include('partials/nav')
     @yield('body')

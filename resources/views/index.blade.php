@@ -20,12 +20,6 @@ INGENIERÍA
 Y GESTIÓN
 @endsection
 
-@section('texto')
-que genera valor a nuestros clientes
-para incrementar la rentabilidad y eficiencia de sus
-procesos, sus proyectos y su organización.
-@endsection
-
 @section('body')
 <div class="row">
     <div class="col-xl-12" style="position: relative">
@@ -52,10 +46,10 @@ procesos, sus proyectos y su organización.
     </div>
 </div>
 <div class="row mt-2 mb-5">
-    <div class="col-xl-6">
-        <img class="img-fluid" src="{{ URL::asset('img/04logo-clientes1.png') }}" alt="clientes1" style="float: right">
+    <div class="col-xl-6 col-sm-12 text-center">
+        <img class="img-fluid" src="{{ URL::asset('img/04logo-clientes1.png') }}" alt="clientes1">
     </div>
-    <div class="col-xl-6">
+    <div class="col-xl-6 col-sm-12 text-center">
         <img class="img-fluid" src="{{ URL::asset('img/04logoclientes2.png') }}" alt="clientes2">
     </div>
 </div>

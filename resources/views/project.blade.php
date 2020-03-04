@@ -47,7 +47,7 @@ Project Management
                 </p> <br>
                 <div class="contentimg">
                     <img class="img-fluid" src="{{ URL::asset('img/03imagen-leanmanagement.jpg') }}" alt="leanmanagement">
-                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modallean" style="font-size: 1.5vw">Ver más</button>
+                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modallean">Ver más</button>
                 </div>
             </div>
             
@@ -63,7 +63,7 @@ Project Management
                 </p> <br>
                 <div class="contentimg">
                     <img class="img-fluid" src="{{ URL::asset('img/03imagen-gerenciaintegrada.jpg') }}" alt="gerenciaintegrada">
-                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modalgerencia" style="font-size: 1.5vw">Ver más</button>
+                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modalgerencia">Ver más</button>
                 </div>
             </div>
         </div>
@@ -81,7 +81,7 @@ Project Management
                 </p> <br>
                 <div class="contentimg">
                     <img class="img-fluid" src="{{ URL::asset('img/03imagen-sostenibilidad.jpg') }}" alt="sostenibilidad">
-                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modalsostenibilidad" style="font-size: 1.5vw">Ver más</button>
+                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modalsostenibilidad">Ver más</button>
                 </div>
             </div>
             
@@ -97,7 +97,7 @@ Project Management
                 </p> <br>
                 <div class="contentimg">
                 <img class="img-fluid" src="{{ URL::asset('img/03imagen-gestioncalidad.jpg') }}" alt="gestioncalidad">
-                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modalgestion" style="font-size: 1.5vw">Ver más</button>
+                    <button type="button" class="btn btn-danger btnmodal" data-toggle="modal" data-target="#modalgestion">Ver más</button>
                 </div>
             </div>
         </div>

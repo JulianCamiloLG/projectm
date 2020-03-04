@@ -17,11 +17,11 @@
                             <a class="nav-link" href="/nosotros" style="width: 100%"> NOSOTROS <span class="sr-only">(current)</span></a>
                         </li
                         <li class="nav-item">
-                            <a class="nav-link" href="/servicios" style="width: 100%"> SERVICIOS <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="/servicios" style="width: 100%"> ÁREAS <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            ÁREAS
+                            SERVICIOS
                             </a>
                             <div class="dropdown-menu navbar-dark" aria-labelledby="navbarDropdown" style="background-color: grey; color: white">
                                 <div class="dropdown-divider"></div>

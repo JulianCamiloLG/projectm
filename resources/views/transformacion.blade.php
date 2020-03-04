@@ -13,7 +13,7 @@
 @endsection
 
 @section('titulo')
-ÁREAS
+SERVICIOS
 @endsection
 
 @section('subtitulo')

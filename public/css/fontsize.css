@@ -10,7 +10,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .fuentetitulo {
-    font-size: 25px;
+    font-size: 20px;
   }
   .fuentetexto {
     font-size: 20px;

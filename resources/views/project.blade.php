@@ -13,7 +13,7 @@
 @endsection
 
 @section('titulo')
-ÁREAS
+SERVICIOS
 @endsection
 
 @section('subtitulo')
@@ -56,7 +56,7 @@ Project Management
             <div class="my-2 mx-2"> 
                 <img class="img-fluid" src="{{ URL::asset('img/02-icono-gerenciaintegrada.png') }}" alt="gerenciaintegrada">
                 <label for="bim" class="fuentetexto"><strong><h1 class="fuentetitulo">Gerencia integrada</h1></strong>DE PROYECTOS - IPD</label> <br>
-                <p> <br>
+                <p class="fuentetexto"> <br>
                 Representa una innovación evolutiva y audaz en el desarrollo
                 de proyectos de construcción con un equipo cooperativo y colaborativo para diseñar y construir el proyecto con recompensas compartidas en el costo final, cronograma y la calidad del
                 proyecto.

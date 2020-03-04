@@ -13,5 +13,5 @@
 @endsection
 
 @section('titulo')
-SERVICIOS
+ÁREAS
 @endsection

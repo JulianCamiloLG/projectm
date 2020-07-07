@@ -43,9 +43,9 @@
       <div class="col-md-4">
         <h5 class="text-uppercase line footer"><strong>SÍGUENOS</strong></h5>
         <p>
-            <img class="img-fluid" src="{{ URL::asset('img/05logo-facebook.png') }}" alt="facebook">
-            <img class="img-fluid" src="{{ URL::asset('img/05logo-linkedin.png') }}" alt="linkedin">
-            <a href="https://www.youtube.com/channel/UCyLaUU4syoyJhPe7pvDEjtA"><img class="img-fluid" src="{{ URL::asset('img/youtube.webp') }}" alt="youtube" width='51px' height='49px'></a>
+            <a href="https://www.facebook.com/ProjectMSAS" target="_blank"><img class="img-fluid" src="{{ URL::asset('img/05logo-facebook.png') }}" alt="facebook"></a>
+            <a href="https://www.linkedin.com/company/projectm-sas" target="_blank"><img class="img-fluid" src="{{ URL::asset('img/05logo-linkedin.png') }}" alt="linkedin"></a>
+            <a href="https://www.youtube.com/channel/UCyLaUU4syoyJhPe7pvDEjtA" target="_blank"><img class="img-fluid" src="{{ URL::asset('img/youtube.webp') }}" alt="youtube" width='51px' height='49px'></a>
         </p>
       </div>
     </div>

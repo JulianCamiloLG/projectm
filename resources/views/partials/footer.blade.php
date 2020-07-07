@@ -45,6 +45,7 @@
         <p>
             <img class="img-fluid" src="{{ URL::asset('img/05logo-facebook.png') }}" alt="facebook">
             <img class="img-fluid" src="{{ URL::asset('img/05logo-linkedin.png') }}" alt="linkedin">
+            <a href="https://www.youtube.com/channel/UCyLaUU4syoyJhPe7pvDEjtA"><img class="img-fluid" src="{{ URL::asset('img/youtube.webp') }}" alt="youtube" width='51px' height='49px'></a>
         </p>
       </div>
     </div>

@@ -18,7 +18,7 @@ class MailController extends Controller
         $user=$request->input('Nombres');
         $emailFrom=$request->input('Correo');
         $subject="Project M Contacto";
-        $content="Mnesjae: " . $request->input('Mensaje') ."\r\n Nombre: " .$request->input('Nombres') ."\r\n Contacto: " .$request->input('Celular');
+        $content="Mensaje: " . $request->input('Mensaje') ."\r\n Nombre: " .$request->input('Nombres') ."\r\n Contacto: " .$request->input('Celular');
         $data = array('name'=>$user,
                        'emailFrom'=>$emailFrom,
                        'subject'=>$subject,
@@ -29,7 +29,7 @@ class MailController extends Controller
          * 
          */
         Mail::send('email.email1', $data, function($message) use ($user,$emailFrom,$subject) {
-            $message->to('juliancamy.81@gmail.com', 'JULIAN CAMILO LOPEZ GIRALDO')
+            $message->to('cristian@projectm.pro', 'Projectm')
                     ->subject($subject);
             $message->from($emailFrom,$user);
         });
